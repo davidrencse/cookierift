@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+.prose-markdown h1 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  margin: 1rem 0 0.5rem;
+}
+
+.prose-markdown h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem;
+}
+
+.prose-markdown h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.35rem;
+}
+
+.prose-markdown p, .prose-markdown li {
+  margin: 0.35rem 0;
+}
+
+.prose-markdown code {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 0.35rem;
+  padding: 0.1rem 0.25rem;
+}
